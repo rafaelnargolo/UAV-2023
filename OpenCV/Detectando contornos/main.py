@@ -1,6 +1,6 @@
 import cv2 
 
-img = cv2.imread('moeda.jpg')  # Lê o endereço da imagem
+img = cv2.imread('moeda.png')  # Lê o endereço da imagem
 imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  # Converte a imagem para cinza
 
 blurred = cv2.GaussianBlur(imgGray, (5, 5), 0)

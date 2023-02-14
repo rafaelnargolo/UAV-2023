@@ -1,7 +1,7 @@
 import cv2
 
 #  Essa desgraça não tá funcionando, mas é assim que se faz
-img = cv2.imread('arvores.jpg')  # Lê o endereço da imagem
+img = cv2.imread('montanha.jpg')  # Lê o endereço da imagem
 
 imgRszed = cv2.resize(img, (0, 0), fx = 0.5, fy = 0.5)  # Diminui a dimensão da imagem em 50% da largula e altura
 '''
